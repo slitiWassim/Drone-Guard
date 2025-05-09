@@ -1,3 +1,14 @@
+# Dataset Folders
+Datasets/avenue/
+Datasets/ped2/
+Datasets/shanghaitech
+Datasets/Drone-Anomaly
+
+AnnomaliesDetection.ipynb
+
+# Best  Models Weights
+Best_Models 
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
