@@ -26,10 +26,6 @@ def calculate_auc(config, psnr_list, mat):
         labels = np.concatenate((labels, mat[i][fp:]), axis=0)
     assert scores.shape == labels.shape, f'Ground truth has {labels.shape[0]} frames, BUT got {scores.shape[0]} detected frames!'
     fpr, tpr, thresholds = metrics.roc_curve(labels, scores,pos_label=0)
-    #np.save("reverse_result/Crossroads/scores_Crossroads.npy",scores)
-    #np.save("reverse_result/Crossroads/labels_Crossroads.npy",labels)
-    #np.save("reverse_result/Crossroads/fpr_Crossroads.npy",fpr)
-    #np.save("reverse_result/Crossroads/tpr_Crossroads.npy",tpr)
     auc = metrics.auc(fpr, tpr)
 
     return auc, fpr, tpr
