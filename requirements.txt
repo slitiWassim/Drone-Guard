@@ -1,0 +1,6 @@
+natsort
+yacs
+pytorchvideo
+grouped_query_attention_pytorch
+vector_quantize_pytorch
+lion_pytorch
