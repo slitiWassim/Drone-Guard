@@ -23,7 +23,7 @@ This is the code for **[Drone-Guard: A Self-Supervised Deep Learning Framework f
 
 
 ## Setup
-The code can be run under any environment with Python 3.7 and above.
+The code can be run under any environment with Python 3.12 and above.
 (It may run with lower versions, but we have not tested it).
 
 Install the required packages:
