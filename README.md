@@ -10,14 +10,14 @@ This is the code for **[Drone-Guard: A Self-Supervised Deep Learning Framework f
 
 > **ASTNet**: See [Attention-based Residual Autoencoder for Video Anomaly Detection](https://vt-le.github.io/astnet/).
 
-<a href="static/img/shanghai/shanghai_curve_full.gif" target="_blank">
-    <image style="border: 2px solid rgb(201, 196, 196);" src="static/images/03_0031.gif" width="100%">
+<a href="static/videos/Bike_video.gif" target="_blank">
+    <image style="border: 2px solid rgb(201, 196, 196);" src="static/videos/Bike_video.gif"  width="100%">
 </a>
 
 ## Model
 
-<a href="static/img/shanghai/shanghai_curve_full.gif" target="_blank">
-    <image style="border: 2px solid rgb(201, 196, 196);" src="static/images/03_0031.gif" width="100%">
+<a href="static/images/Model-Architecture.png" target="_blank">
+    <image style="border: 2px solid rgb(201, 196, 196);" src="static/images/Model-Architecture.png" width="100%">
 </a>
 
 
