@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Drone-Guard: A Self-Supervised Deep Learning Framework for Spatiotemporal Anomaly Detection in UAV Surveillance Videos">
+  <meta name="keywords" content="HSTforU, HSTforU">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Drone-Guard: A Self-Supervised Deep Learning Framework for Spatiotemporal Anomaly Detection in UAV Surveillance Videos</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ECQJZZNYSB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ECQJZZNYSB');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Drone-Guard: A Self-Supervised Deep Learning Framework for Spatiotemporal Anomaly Detection in UAV Surveillance Videos</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://vt-le.github.io/">Sliti Wassim</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href=#>Olfa Besbes</a><sup>2</sup>,
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>SECROM Laboratory, EPT, University of Carthage, La Marsa 2078, Tunisia,</span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>2</sup>ISITCOM, University of Sousse, Hammam Sousse 4011, Tunisia</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://doi.org/10.1007/s10489-024-06042-4"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://youtu.be/s5wmFbDnBCI"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/slitiWassim/Drone-Guard"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+           Anomaly detection is a critical component of video surveillance, enabling the timely identification of unusual or suspicious activities. Recent advancements in deep learning and computer vision have significantly improved the performance of anomaly detection systems. However, most existing methods face a trade-off between detection accuracy and computational efficiency. High-performing models are typically resource-intensive, rendering them impractical for deployment on edge devices with limited processing capabilities. Conversely, lightweight models often fail to maintain high accuracy, particularly in complex real-world scenarios. With the growing proliferation of Internet of Things (IoT) devices and the increasing adoption of drones in surveillance and defense applications, there is a pressing need for solutions that are both accurate and computationally efficient. To this end, we propose Drone-Guard, a novel framework for unsupervised anomaly detection in UAV video streams. At its core, our method employs a lightweight residual autoencoder enhanced with multi-stage feature extraction to effectively capture both local and global spatial patterns. To further enrich the representation, we introduce a Multi-Scale Grouped Query Attention (MS-GQA) mechanism that fuses multi-scale features, followed by Residual Vector Quantization (RVQ) to improve the compactness and quality of reconstructions. To overcome the scarcity of abnormal training data—a common challenge in unsupervised settings—we also propose a pseudo-anomaly synthesizer that generates synthetic anomalies using only normal data distributions. This enables robust model training without reliance on manually annotated anomalies. Extensive experiments and ablation studies conducted on benchmark datasets demonstrate that Drone-Guard achieves a superior trade-off between accuracy and efficiency, consistently outperforming state-of-the-art methods in constrained edge-computing environments. <a href="https://slitiwassim.github.io/Drone-Guard/">https://slitiwassim.github.io/Drone-Guard/</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+        <div class="publication-video">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/s5wmFbDnBCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h3 class="title is-3">Ground-based Videos</h3>
+    <div class="columns is-centered">
+
+      <!-- Visual Effects. -->
+      <div class="column">
+
+        <div class="content">
+          <h4 class="title is-4">UCSD Ped2</h4>
+          <p>
+            In this scene, a cow herd walking on the highway is anomalous.
+          </p>
+          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/ped2_video.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <!--/ Visual Effects. -->
+
+      <!-- Matting. -->
+      <div class="column">
+        <h2 class="title is-4">ShanghaiTech Campus</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+              Vehicles moving on the roundabout used for bikes is anomalous in this scene.
+            </p>
+            <video id="matting-video" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/shanghai_video.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--/ Matting. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <h3 class="title is-3">Aerial Videos</h3>
+    <div class="columns is-centered">
+
+      <!--/ Visual Effects. -->
+
+      <!-- Matting. -->
+      <div class="column">
+        <h2 class="title is-4">Bike</h2>
+        <div class="columns is-centered">
+          <div class="column content">
+            <p>
+              Vehicles moving on the roundabout used for bikes is anomalous in this scene.
+            </p>
+            <video id="matting-video" autoplay controls muted loop playsinline height="100%">
+              <source src="./static/videos/Bike_video.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--/ Matting. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Concurrent Work. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Anomaly score</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            For each video, we compare the anomaly score of the proposed method with and without Hierarchical Spatio-temporal Transfomrer.
+          </p>
+          <h4 class="title is-4">Ground-based Datasets</h4>
+          <div class="content has-text-centered">
+            <img src="static/images/annomaly_score_ped2.png"
+                 class="interpolation-image"
+                 alt="Interpolation end reference image."/>
+            <p class="is-bold"> UCSD Ped2 Dataset</p>
+         </div>
+
+          <div class="content has-text-centered">
+            <img src="static/images/annomaly_score_avenue.png"
+                 class="interpolation-image"
+                 alt="Interpolation end reference image."/>
+            <p class="is-bold">CUHK Avenue Dataset</p>
+          </div>
+
+          <div class="content has-text-centered">
+            <img src="static/images/anomaly_score_shanghai.png"
+                 class="interpolation-image"
+                 alt="Interpolation end reference image."/>
+            <p class="is-bold">ShanghaiTech Dataset</p>
+          </div>
+          <h4 class="title is-4">Drone-anomaly Dataset</h4>
+          <div class="content has-text-centered">
+            <img src="static/images/annomaly_score_bike.png"
+                 class="interpolation-image"
+                 alt="Interpolation end reference image."/>
+            <p class="is-bold"> Bike roundabout</p>
+         </div>
+         <div class="content has-text-centered">
+          <img src="static/images/fig_exp_abnormal_score_highway.png"
+               class="interpolation-image"
+               alt="Interpolation end reference image."/>
+          <p class="is-bold">Highway</p>
+       </div>
+        </div>
+      </div>
+    </div>
+    <!--/ Concurrent Work. -->
+
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Animation. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Related Works</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/vt-le/GuidedAnomaly">GuidedAnomaly: Guided Prediction for Video Anomaly Detection</a>
+          </li>
+          <li>
+            <a href="https://github.com/vt-le/CrossAnomaly">CrossAnomaly: A Contextual Cross-Modality Framework for Video Anomaly Detection</a>
+          </li>
+          <li>
+            <a href="https://vt-le.github.io/astnet/">ASTNet: Attention-based Residual Autoencoder for Video Anomaly Detection</a>
+          </li>
+        </ul>        
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Animation. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Acknowledgements</h2>
+
+        <p>
+            This work was supported by the Institute of Information \& communications Technology Planning \& Evaluation (IITP), a grant funded by the Korean government (MSIT) (No.2019-0-00231), and by the Information Technology Research Center (ITRC) support program (IITP-2022-RS-2022-00156354) as well as by the Basic Science Research Program through the National Research Foundation of Korea (NRF) funded by the Ministry of Education (2020R1A6A1A03038540).
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@Article{le2025hstforu,
+author={Le, Viet-Tuan
+and Jin, Hulin
+and Kim, Yong-Guk},
+title={HSTforU: anomaly detection in aerial and ground-based videos with hierarchical spatio-temporal transformer for U-net},
+journal={Applied Intelligence},
+year={2025},
+month={Jan},
+day={03},
+volume={55},
+number={4},
+pages={261},
+issn={1573-7497},
+doi={10.1007/s10489-024-06042-4},
+url={https://doi.org/10.1007/s10489-024-06042-4}
+}</code></pre>
+  </div>
+</section>
+
+
+  
+  <div  class="content has-text-centered">                    
+    <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=100&t=tt&d=q49wzaeszt6saUdZ2-PmswLp2WGKt0cVRzic2a8avqc'></script>
+  </div>    
+  
+
+</body>
+</html>

@@ -1,13 +1,17 @@
 # Dataset Folders
-Datasets/avenue/
-Datasets/ped2/
-Datasets/shanghaitech
-Datasets/Drone-Anomaly
+Drone-Guard/Datasets/avenue/
+Drone-Guard/Datasets/ped2/
+Drone-Guard/Datasets/shanghaitech/
+Drone-Guard/Datasets/Drone-Anomaly/
 
 AnnomaliesDetection.ipynb
 
+# Ignore Output
+Drone-Guard/output/
+Drone-Guard/log/
+
 # Best  Models Weights
-Best_Models 
+Drone-Guard/Best_Models/ 
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
