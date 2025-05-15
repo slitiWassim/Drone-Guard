@@ -250,22 +250,4 @@ class Efficientnet_X3D(nn.Module):
         return x1 , x2 , x3    
 
 
-class Efficientnet_X3D_v1(nn.Module):
-    """
-    This is Efficientnet_X3D_v1
-    """
-    def __init__(self, pretrained=True):
-        super(Efficientnet_X3D_v1, self).__init__()
-        self.mod1=s1
-        self.mod2=s2
-        self.mod3=s3
-        self.mod4=s4
-
- 
-
-    def forward(self, x):
-        x1=self.mod1(x)
-        x2=self.mod2(x1)
-        x3=self.mod3(x2)
-        x4=self.mod4(x3)
-        return x1 , x2 , x4   
+   
