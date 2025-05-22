@@ -33,6 +33,7 @@ def calculate_auc(config, psnr_list, mat):
 
 def get_labels(DATASET):
     frame_path='./Datasets/labels/frame_labels_'+DATASET+'.npy' 
+    folder='./Datasets/'+DATASET+'/testing/frames'
     label=np.load(frame_path)
     nb=0
     mat=[]

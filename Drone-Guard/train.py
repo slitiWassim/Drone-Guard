@@ -123,13 +123,13 @@ def main():
         if (epoch % 10 ==0) and ( args.output_folder != None):
             torch.save(model.module.state_dict(), os.path.join(args.output_folder,
                                                                'epoch_train_{}.pth'.format(epoch + 1)))
-        if(args.test)and(epoch > -15):
+        if(args.test)and(epoch > 15):
             if config.DATASET.TYPE == "ground":
                mat=anomaly_util.get_labels(config.DATASET.DATASET)
             else :
                mat=anomaly_util.get_drone_labels(config.DATASET.DATASET)
 
-            psnr_list , fps = inference(config, test_loader, model,args,quiet=True)
+            psnr_list = inference(config, test_loader, model,args,quiet=True)
             assert len(psnr_list) == len(mat), f'Ground truth has {len(mat)} videos, BUT got {len(psnr_list)} detected videos!'
             auc, fpr, tpr = anomaly_util.calculate_auc(config, psnr_list, mat)
             if(auc>AUC_memory):
@@ -140,7 +140,7 @@ def main():
                     torch.save(model.module.state_dict(), os.path.join(args.output_folder,
                                                                'best_AUC.pth'.format(epoch + 1)))                                               
                 AUC_memory=auc
-            logger.info(f'AUC: {auc * 100:.1f}%  +   FPS : {fps}')
+            logger.info(f'AUC: {auc * 100:.1f}%  ')
 
     final_model_state_file = os.path.join(final_output_dir, 'final_state.pth')
     logger.info('saving final model state to {}'.format(final_model_state_file))
