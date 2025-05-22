@@ -4,11 +4,11 @@ This is the code for **[Drone-Guard: A Self-Supervised Deep Learning Framework f
 ### [Project](https://slitiwassim.github.io/Drone-Guard/) | [Video](https://www.youtube.com/watch?v=c4U8tkQkX7g) | [Paper]()
  
 ## Related Works
-> **CrossAnomaly**: See [CrossAnomaly: A Contextual Cross-Modality Framework for Video Anomaly Detection](https://github.com/vt-le/CrossAnomaly).
+> **ANDT**: See [ANDT : Anomaly detection in aerial videos with transformers ](https://github.com/Jin-Pu/Drone-Anomaly).
 
 > **HSTforU**: See [HSTforU: Anomaly Detection in Aerial and Ground-based Videos with Hierarchical Spatio-Temporal Transformer for U-net](https://github.com/vt-le/HSTforU/tree/main).
 
-> **ASTNet**: See [Attention-based Residual Autoencoder for Video Anomaly Detection](https://vt-le.github.io/astnet/).
+> **FastAno**: See [FastAno: Fast Anomaly Detection via Spatio-temporal Patch Transformation](https://github.com/codnjsqkr/FastAno_official).
 
 <a href="static/videos/Bike_video.gif" target="_blank">
     <image style="border: 2px solid rgb(201, 196, 196);" src="static/videos/Bike_video.gif"  width="100%">
