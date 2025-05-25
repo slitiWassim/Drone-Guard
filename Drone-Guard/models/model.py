@@ -52,7 +52,7 @@ class DroneGuard(nn.Module):
 
 
         # Quantization Layer
-        self.vq = Quantizer(channels[3],codebook_size =128,Quantizer_name='ResidualVQ')
+        self.vq = Quantizer(channels[3],codebook_size=128,num_quantizers=4,Quantizer_name='ResidualVQ')
         self._pre_vq_conv = nn.Conv2d(in_channels=embedding_dim, out_channels=channels[3],kernel_size=1)
       
 
