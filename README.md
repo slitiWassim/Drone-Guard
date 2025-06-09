@@ -188,7 +188,7 @@ python -m torch.distributed.launch --nproc_per_node 4 --master_port 12345 train.
 ## Citing
 If you find our work useful, please consider citing:
 ```BibTeX
-Paper submitted to  : Computer Vision and Image Understanding
+Paper submitted 
 
 ```
 
