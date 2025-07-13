@@ -278,7 +278,7 @@ def train_pseudo(config, train_loader,train_loader_jump, model, loss_functions, 
         loss_commit=torch.mean(torch.stack(modified_loss_commit))
         
         # compute loss
-        loss =  inte_loss + grad_loss +  msssim_loss +  2*l2_loss  + loss_commit
+        loss =  inte_loss + grad_loss +  msssim_loss +  l2_loss  + loss_commit
 
         # compute PSNR
 
