@@ -1,7 +1,7 @@
 # Drone-Guard: A Self-Supervised Deep Learning Framework for Spatiotemporal Anomaly Detection in UAV Surveillance Videos
 This is the code for **[Drone-Guard: A Self-Supervised Deep Learning Framework for Spatiotemporal Anomaly Detection in UAV Surveillance Videos](https://github.com/slitiWassim/Drone-Guard)** .
 
-### [Project](https://slitiwassim.github.io/Drone-Guard/) | [Video](https://www.youtube.com/watch?v=c4U8tkQkX7g) | [Paper]()
+### [Project](https://slitiwassim.github.io/Drone-Guard/) | [Video](https://www.youtube.com/watch?v=c4U8tkQkX7g) | [Paper](https://doi.org/10.1016/j.neucom.2025.131168)
  
 ## Related Works
 > **ANDT**: See [ANDT : Anomaly detection in aerial videos with transformers ](https://github.com/Jin-Pu/Drone-Anomaly).
@@ -188,7 +188,21 @@ python -m torch.distributed.launch --nproc_per_node 4 --master_port 12345 train.
 ## Citing
 If you find our work useful, please consider citing:
 ```BibTeX
-Paper submitted 
+@article{DBLP:journals/ijon/SlitiB25,
+  author       = {Wassim Sliti and
+                  Olfa Besbes},
+  title        = {Drone-guard: {A} self-supervised deep learning framework for real-time
+                  spatiotemporal anomaly detection in {UAV} surveillance systems},
+  journal      = {Neurocomputing},
+  volume       = {653},
+  pages        = {131168},
+  year         = {2025},
+  url          = {https://doi.org/10.1016/j.neucom.2025.131168},
+  doi          = {10.1016/J.NEUCOM.2025.131168},
+  timestamp    = {Tue, 14 Oct 2025 19:44:47 +0200},
+  biburl       = {https://dblp.org/rec/journals/ijon/SlitiB25.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
 
 ```
 
