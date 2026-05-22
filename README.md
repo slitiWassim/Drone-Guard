@@ -143,10 +143,10 @@ Please first download the pre-trained model
 
 | Dataset | Pretrained Model                                                                                  |
 |--|---------------------------------------------------------------------------------------|
-| UCSD Ped2 | [![Google drive](https://badgen.net/static/Link/Ped2/blue?icon=chrome)](https://drive.google.com/file/d/1M2zmfCxYB-f7e9zxoDzVeYxA7bcF8ock/view?usp=drive_link) |
-| CUHK Avenue | [![Google drive](https://badgen.net/badge/Link/Avenue/blue?icon=chrome)](https://drive.google.com/file/d/1FE_ndmAgGbK7PWL0GbaQMYp6WplXeqWY/view?usp=drive_link) |
-| ShanghaiTech | [![Google drive](https://badgen.net/badge/Link/ShanghaiTech/blue?icon=chrome)](https://drive.google.com/file/d/1bxOlFPju_LONHjJQlUo28dIpY8ZSucto/view?usp=drive_link) |
-| Drone-Anomaly | [![Google drive](https://badgen.net/badge/Link/Drone-Anomaly/blue?icon=chrome)](https://drive.google.com/drive/folders/1MyzMWROIyj7iAHPFZmg1RD7QmW0CHzTU?usp=drive_link)    |
+| UCSD Ped2 | [![Google drive](https://badgen.net/static/Link/Ped2/blue?icon=chrome)](https://drive.google.com/file/d/14FZF-Ab-RvquJ1Qi9tOrYOkL9Yp7Xzwb/view?usp=drive_link) |
+| CUHK Avenue | [![Google drive](https://badgen.net/badge/Link/Avenue/blue?icon=chrome)](https://drive.google.com/drive/u/0/folders/1T6hjUa2UOACYMGAlYj9fRdZG71uCAyyY) |
+| ShanghaiTech | [![Google drive](https://badgen.net/badge/Link/ShanghaiTech/blue?icon=chrome)](https://drive.google.com/file/d/1gG3rcDQ6DLuBMektN0oE_Gl5S8tCJOyS/view?usp=sharing) |
+| Drone-Anomaly | [![Google drive](https://badgen.net/badge/Link/Drone-Anomaly/blue?icon=chrome)](https://drive.google.com/drive/u/0/folders/1WHqyY729gZOM0MaXtbm4jI81GrKuopiZ)    |
 
 To evaluate a pretrained `Drone-Guard` on a dataset, run:
 
@@ -202,7 +202,7 @@ If you find our work useful, please consider citing:
 ## Contact
 For any question, please file an [issue](https://github.com/slitiWassim/Drone-Guard/issues) or contact:
 
-    Wassim Sliti : wassim.sliti@ept.ucar.tn
+    Wassim Sliti : wassim.sliti@upm.es
 
 ## Acknowledgement
 
