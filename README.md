@@ -144,7 +144,7 @@ Please first download the pre-trained model
 | Dataset | Pretrained Model                                                                                  |
 |--|---------------------------------------------------------------------------------------|
 | UCSD Ped2 | [![Google drive](https://badgen.net/static/Link/Ped2/blue?icon=chrome)](https://drive.google.com/file/d/14FZF-Ab-RvquJ1Qi9tOrYOkL9Yp7Xzwb/view?usp=drive_link) |
-| CUHK Avenue | [![Google drive](https://badgen.net/badge/Link/Avenue/blue?icon=chrome)](https://drive.google.com/drive/u/0/folders/1T6hjUa2UOACYMGAlYj9fRdZG71uCAyyY) |
+| CUHK Avenue | [![Google drive](https://badgen.net/badge/Link/Avenue/blue?icon=chrome)](https://drive.google.com/file/d/1A4tWAyR8vPQqVpU0c6uvatzDQXngwsXQ/view?usp=sharing) |
 | ShanghaiTech | [![Google drive](https://badgen.net/badge/Link/ShanghaiTech/blue?icon=chrome)](https://drive.google.com/file/d/1gG3rcDQ6DLuBMektN0oE_Gl5S8tCJOyS/view?usp=sharing) |
 | Drone-Anomaly | [![Google drive](https://badgen.net/badge/Link/Drone-Anomaly/blue?icon=chrome)](https://drive.google.com/drive/u/0/folders/1WHqyY729gZOM0MaXtbm4jI81GrKuopiZ)    |
 
