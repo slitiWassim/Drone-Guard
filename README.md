@@ -43,7 +43,7 @@ We evaluate `Drone-Guard` on:
 | ShanghaiTech | [![Google drive](https://badgen.net/badge/Homepage/ShanghaiTech/green?)](https://svip-lab.github.io/dataset/campus_dataset.html) |
 | Drone-Anomaly | [![Google drive](https://badgen.net/badge/Homepage/Drone-Anomaly/yellow)](https://www.kaggle.com/datasets/dayaalex/drone-anomaly)|
 
-A dataset is a directory with the following structure:
+A dataset is a directory with the following structure :
   ```bash
   $ tree data
   ped2/avenue
